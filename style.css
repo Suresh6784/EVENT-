@@ -1,0 +1,186 @@
+
+/* CSS Reset */
+*{
+    margin:0;
+    padding: 0%;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color:black;
+}
+
+/* Navigation bar:Logo and img */
+#logo{
+    padding: 0 0;   
+}
+
+#logo img{
+    border-radius: 50px;
+    height: 75px;
+    width: 120px;
+}
+
+/* Navigation bar:List items*/
+#navbar ul{
+    display: flex;
+    padding-left: 15px;    
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: #fff;
+}
+
+#navbar ul li:hover{
+    font-weight: bold;
+}
+
+.myimages{
+    opacity: 0.6;
+    height: 400px;
+}
+.myslides{
+    height: 400px !important;
+}
+
+#mar{
+    padding-top: 8px;
+    background-color:rgb(104, 101, 101);
+    color:white;
+    height: 40px;
+}
+div.content{
+    width: 100%;
+    height: 700px;
+    border: 2px black solid;
+    background: url('background.jpg');
+    margin: 0;
+    padding-bottom: 20px !important;
+}
+.mycol{
+    border: 1px yellow solid;
+    height: 375px;
+    overflow: hidden;
+}
+.mycardbody{
+    background-color: rgb(92, 86, 86);
+    color: rgb(219, 212, 212);
+}
+.mybutton{
+    color: black;
+    background-color: black;
+}
+.mycard{
+    border: 0px;
+}
+
+.heading2{
+    margin: 30px 0 30px 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.heading1{
+    font-size: 30px;
+}
+.main{
+    font-stretch: expanded;
+    font-weight: 500;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+    color: white
+    
+}
+
+.reservation{
+    background-color: rgb(81, 11, 146);
+    height: 500px;
+    width: 100% ;
+}
+.res{
+    border: 1px black solid;
+    padding-left: 20px;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(37, 8, 63);
+    margin: 0;
+}
+#t1{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    color: #fff;
+    text-decoration: solid;
+
+}
+.details{
+    background-color: rgb(79, 19, 134);
+    border: 1px white solid;
+}
+.details:hover{
+    background-color: #fff;
+}
+
+.last{
+    background: url('last.jpg');
+    
+}
+.footer{
+    background-color: rgb(184, 187, 187);
+}
+.container{
+    /* border: 2px solid black; */
+    max-width: 1170px;
+    margin: auto;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 5 25px;
+}
+.footer-col h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    margin: 15px 0px 20px 0px;
+    font-weight: light;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+   
+
+ 
